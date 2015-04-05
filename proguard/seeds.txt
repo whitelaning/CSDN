@@ -1,0 +1,1208 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.extra.gesture.Animation
+com.extra.gesture.Animation: boolean update(com.extra.gesture.GestureImageView,long)
+com.extra.gesture.Animator
+com.extra.gesture.Animator: com.extra.gesture.GestureImageView view
+com.extra.gesture.Animator: com.extra.gesture.Animation animation
+com.extra.gesture.Animator: boolean running
+com.extra.gesture.Animator: boolean active
+com.extra.gesture.Animator: long lastTime
+com.extra.gesture.Animator: Animator(com.extra.gesture.GestureImageView,java.lang.String)
+com.extra.gesture.Animator: void run()
+com.extra.gesture.Animator: void finish()
+com.extra.gesture.Animator: void play(com.extra.gesture.Animation)
+com.extra.gesture.Animator: void activate()
+com.extra.gesture.Animator: void cancel()
+com.extra.gesture.FlingAnimation
+com.extra.gesture.FlingAnimation: float velocityX
+com.extra.gesture.FlingAnimation: float velocityY
+com.extra.gesture.FlingAnimation: float factor
+com.extra.gesture.FlingAnimation: float threshold
+com.extra.gesture.FlingAnimation: com.extra.gesture.FlingAnimationListener listener
+com.extra.gesture.FlingAnimation: FlingAnimation()
+com.extra.gesture.FlingAnimation: boolean update(com.extra.gesture.GestureImageView,long)
+com.extra.gesture.FlingAnimation: void setVelocityX(float)
+com.extra.gesture.FlingAnimation: void setVelocityY(float)
+com.extra.gesture.FlingAnimation: void setFactor(float)
+com.extra.gesture.FlingAnimation: void setListener(com.extra.gesture.FlingAnimationListener)
+com.extra.gesture.FlingAnimationListener
+com.extra.gesture.FlingAnimationListener: void onMove(float,float)
+com.extra.gesture.FlingAnimationListener: void onComplete()
+com.extra.gesture.FlingListener
+com.extra.gesture.FlingListener: float velocityX
+com.extra.gesture.FlingListener: float velocityY
+com.extra.gesture.FlingListener: FlingListener()
+com.extra.gesture.FlingListener: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+com.extra.gesture.FlingListener: float getVelocityX()
+com.extra.gesture.FlingListener: float getVelocityY()
+com.extra.gesture.GestureImageView
+com.extra.gesture.GestureImageView: java.lang.String GLOBAL_NS
+com.extra.gesture.GestureImageView: java.lang.String LOCAL_NS
+com.extra.gesture.GestureImageView: java.util.concurrent.Semaphore drawLock
+com.extra.gesture.GestureImageView: com.extra.gesture.Animator animator
+com.extra.gesture.GestureImageView: android.graphics.drawable.Drawable drawable
+com.extra.gesture.GestureImageView: float x
+com.extra.gesture.GestureImageView: float y
+com.extra.gesture.GestureImageView: boolean layout
+com.extra.gesture.GestureImageView: float scaleAdjust
+com.extra.gesture.GestureImageView: float startingScale
+com.extra.gesture.GestureImageView: float scale
+com.extra.gesture.GestureImageView: float maxScale
+com.extra.gesture.GestureImageView: float minScale
+com.extra.gesture.GestureImageView: float fitScaleHorizontal
+com.extra.gesture.GestureImageView: float fitScaleVertical
+com.extra.gesture.GestureImageView: float rotation
+com.extra.gesture.GestureImageView: float centerX
+com.extra.gesture.GestureImageView: float centerY
+com.extra.gesture.GestureImageView: java.lang.Float startX
+com.extra.gesture.GestureImageView: java.lang.Float startY
+com.extra.gesture.GestureImageView: int hWidth
+com.extra.gesture.GestureImageView: int hHeight
+com.extra.gesture.GestureImageView: int resId
+com.extra.gesture.GestureImageView: boolean recycle
+com.extra.gesture.GestureImageView: boolean strict
+com.extra.gesture.GestureImageView: int displayHeight
+com.extra.gesture.GestureImageView: int displayWidth
+com.extra.gesture.GestureImageView: int alpha
+com.extra.gesture.GestureImageView: android.graphics.ColorFilter colorFilter
+com.extra.gesture.GestureImageView: int deviceOrientation
+com.extra.gesture.GestureImageView: int imageOrientation
+com.extra.gesture.GestureImageView: com.extra.gesture.GestureImageViewListener gestureImageViewListener
+com.extra.gesture.GestureImageView: com.extra.gesture.GestureImageViewTouchListener gestureImageViewTouchListener
+com.extra.gesture.GestureImageView: android.view.View$OnTouchListener customOnTouchListener
+com.extra.gesture.GestureImageView: android.view.View$OnClickListener onClickListener
+com.extra.gesture.GestureImageView: int[] $SWITCH_TABLE$android$widget$ImageView$ScaleType
+com.extra.gesture.GestureImageView: GestureImageView(android.content.Context,android.util.AttributeSet,int)
+com.extra.gesture.GestureImageView: GestureImageView(android.content.Context,android.util.AttributeSet)
+com.extra.gesture.GestureImageView: GestureImageView(android.content.Context)
+com.extra.gesture.GestureImageView: void onMeasure(int,int)
+com.extra.gesture.GestureImageView: void onLayout(boolean,int,int,int,int)
+com.extra.gesture.GestureImageView: void setupCanvas(int,int,int)
+com.extra.gesture.GestureImageView: void computeCropScale(int,int,int,int)
+com.extra.gesture.GestureImageView: void computeStartingScale(int,int,int,int)
+com.extra.gesture.GestureImageView: boolean isRecycled()
+com.extra.gesture.GestureImageView: void recycle()
+com.extra.gesture.GestureImageView: void onDraw(android.graphics.Canvas)
+com.extra.gesture.GestureImageView: boolean waitForDraw(long)
+com.extra.gesture.GestureImageView: void onAttachedToWindow()
+com.extra.gesture.GestureImageView: void animationStart(com.extra.gesture.Animation)
+com.extra.gesture.GestureImageView: void animationStop()
+com.extra.gesture.GestureImageView: void onDetachedFromWindow()
+com.extra.gesture.GestureImageView: void initImage()
+com.extra.gesture.GestureImageView: void setImageBitmap(android.graphics.Bitmap)
+com.extra.gesture.GestureImageView: void setImageDrawable(android.graphics.drawable.Drawable)
+com.extra.gesture.GestureImageView: void setImageResource(int)
+com.extra.gesture.GestureImageView: int getScaledWidth()
+com.extra.gesture.GestureImageView: int getScaledHeight()
+com.extra.gesture.GestureImageView: int getImageWidth()
+com.extra.gesture.GestureImageView: int getImageHeight()
+com.extra.gesture.GestureImageView: void moveBy(float,float)
+com.extra.gesture.GestureImageView: void setPosition(float,float)
+com.extra.gesture.GestureImageView: void redraw()
+com.extra.gesture.GestureImageView: void setMinScale(float)
+com.extra.gesture.GestureImageView: void setMaxScale(float)
+com.extra.gesture.GestureImageView: void setScale(float)
+com.extra.gesture.GestureImageView: float getScale()
+com.extra.gesture.GestureImageView: float getImageX()
+com.extra.gesture.GestureImageView: float getImageY()
+com.extra.gesture.GestureImageView: boolean isStrict()
+com.extra.gesture.GestureImageView: void setStrict(boolean)
+com.extra.gesture.GestureImageView: boolean isRecycle()
+com.extra.gesture.GestureImageView: void setRecycle(boolean)
+com.extra.gesture.GestureImageView: void reset()
+com.extra.gesture.GestureImageView: void setRotation(float)
+com.extra.gesture.GestureImageView: void setGestureImageViewListener(com.extra.gesture.GestureImageViewListener)
+com.extra.gesture.GestureImageView: com.extra.gesture.GestureImageViewListener getGestureImageViewListener()
+com.extra.gesture.GestureImageView: android.graphics.drawable.Drawable getDrawable()
+com.extra.gesture.GestureImageView: void setAlpha(int)
+com.extra.gesture.GestureImageView: void setColorFilter(android.graphics.ColorFilter)
+com.extra.gesture.GestureImageView: void setImageURI(android.net.Uri)
+com.extra.gesture.GestureImageView: android.graphics.Matrix getImageMatrix()
+com.extra.gesture.GestureImageView: void setScaleType(android.widget.ImageView$ScaleType)
+com.extra.gesture.GestureImageView: void invalidateDrawable(android.graphics.drawable.Drawable)
+com.extra.gesture.GestureImageView: int[] onCreateDrawableState(int)
+com.extra.gesture.GestureImageView: void setAdjustViewBounds(boolean)
+com.extra.gesture.GestureImageView: void setImageLevel(int)
+com.extra.gesture.GestureImageView: void setImageMatrix(android.graphics.Matrix)
+com.extra.gesture.GestureImageView: void setImageState(int[],boolean)
+com.extra.gesture.GestureImageView: void setSelected(boolean)
+com.extra.gesture.GestureImageView: void setOnTouchListener(android.view.View$OnTouchListener)
+com.extra.gesture.GestureImageView: float getCenterX()
+com.extra.gesture.GestureImageView: float getCenterY()
+com.extra.gesture.GestureImageView: boolean isLandscape()
+com.extra.gesture.GestureImageView: boolean isPortrait()
+com.extra.gesture.GestureImageView: void setStartingScale(float)
+com.extra.gesture.GestureImageView: void setStartingPosition(float,float)
+com.extra.gesture.GestureImageView: void setOnClickListener(android.view.View$OnClickListener)
+com.extra.gesture.GestureImageView: boolean isOrientationAligned()
+com.extra.gesture.GestureImageView: int getDeviceOrientation()
+com.extra.gesture.GestureImageView: android.view.View$OnTouchListener access$0(com.extra.gesture.GestureImageView)
+com.extra.gesture.GestureImageView: com.extra.gesture.GestureImageViewTouchListener access$1(com.extra.gesture.GestureImageView)
+com.extra.gesture.GestureImageView: int[] $SWITCH_TABLE$android$widget$ImageView$ScaleType()
+com.extra.gesture.GestureImageView$1
+com.extra.gesture.GestureImageView$1: com.extra.gesture.GestureImageView this$0
+com.extra.gesture.GestureImageView$1: GestureImageView$1(com.extra.gesture.GestureImageView)
+com.extra.gesture.GestureImageView$1: boolean onTouch(android.view.View,android.view.MotionEvent)
+com.extra.gesture.GestureImageViewListener
+com.extra.gesture.GestureImageViewListener: void onTouch(float,float)
+com.extra.gesture.GestureImageViewListener: void onScale(float)
+com.extra.gesture.GestureImageViewListener: void onPosition(float,float)
+com.extra.gesture.GestureImageViewTouchListener
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.GestureImageView image
+com.extra.gesture.GestureImageViewTouchListener: android.view.View$OnClickListener onClickListener
+com.extra.gesture.GestureImageViewTouchListener: android.graphics.PointF current
+com.extra.gesture.GestureImageViewTouchListener: android.graphics.PointF last
+com.extra.gesture.GestureImageViewTouchListener: android.graphics.PointF next
+com.extra.gesture.GestureImageViewTouchListener: android.graphics.PointF midpoint
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.VectorF scaleVector
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.VectorF pinchVector
+com.extra.gesture.GestureImageViewTouchListener: boolean touched
+com.extra.gesture.GestureImageViewTouchListener: boolean inZoom
+com.extra.gesture.GestureImageViewTouchListener: float initialDistance
+com.extra.gesture.GestureImageViewTouchListener: float lastScale
+com.extra.gesture.GestureImageViewTouchListener: float currentScale
+com.extra.gesture.GestureImageViewTouchListener: float boundaryLeft
+com.extra.gesture.GestureImageViewTouchListener: float boundaryTop
+com.extra.gesture.GestureImageViewTouchListener: float boundaryRight
+com.extra.gesture.GestureImageViewTouchListener: float boundaryBottom
+com.extra.gesture.GestureImageViewTouchListener: float maxScale
+com.extra.gesture.GestureImageViewTouchListener: float minScale
+com.extra.gesture.GestureImageViewTouchListener: float fitScaleHorizontal
+com.extra.gesture.GestureImageViewTouchListener: float fitScaleVertical
+com.extra.gesture.GestureImageViewTouchListener: int canvasWidth
+com.extra.gesture.GestureImageViewTouchListener: int canvasHeight
+com.extra.gesture.GestureImageViewTouchListener: float centerX
+com.extra.gesture.GestureImageViewTouchListener: float centerY
+com.extra.gesture.GestureImageViewTouchListener: float startingScale
+com.extra.gesture.GestureImageViewTouchListener: boolean canDragX
+com.extra.gesture.GestureImageViewTouchListener: boolean canDragY
+com.extra.gesture.GestureImageViewTouchListener: boolean multiTouch
+com.extra.gesture.GestureImageViewTouchListener: int displayWidth
+com.extra.gesture.GestureImageViewTouchListener: int displayHeight
+com.extra.gesture.GestureImageViewTouchListener: int imageWidth
+com.extra.gesture.GestureImageViewTouchListener: int imageHeight
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.FlingListener flingListener
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.FlingAnimation flingAnimation
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.ZoomAnimation zoomAnimation
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.MoveAnimation moveAnimation
+com.extra.gesture.GestureImageViewTouchListener: android.view.GestureDetector tapDetector
+com.extra.gesture.GestureImageViewTouchListener: android.view.GestureDetector flingDetector
+com.extra.gesture.GestureImageViewTouchListener: com.extra.gesture.GestureImageViewListener imageListener
+com.extra.gesture.GestureImageViewTouchListener: GestureImageViewTouchListener(com.extra.gesture.GestureImageView,int,int)
+com.extra.gesture.GestureImageViewTouchListener: void startFling()
+com.extra.gesture.GestureImageViewTouchListener: void startZoom(android.view.MotionEvent)
+com.extra.gesture.GestureImageViewTouchListener: void stopAnimations()
+com.extra.gesture.GestureImageViewTouchListener: boolean onTouch(android.view.View,android.view.MotionEvent)
+com.extra.gesture.GestureImageViewTouchListener: void handleUp()
+com.extra.gesture.GestureImageViewTouchListener: void handleScale(float,float,float)
+com.extra.gesture.GestureImageViewTouchListener: boolean handleDrag(float,float)
+com.extra.gesture.GestureImageViewTouchListener: void reset()
+com.extra.gesture.GestureImageViewTouchListener: float getMaxScale()
+com.extra.gesture.GestureImageViewTouchListener: void setMaxScale(float)
+com.extra.gesture.GestureImageViewTouchListener: float getMinScale()
+com.extra.gesture.GestureImageViewTouchListener: void setMinScale(float)
+com.extra.gesture.GestureImageViewTouchListener: void setOnClickListener(android.view.View$OnClickListener)
+com.extra.gesture.GestureImageViewTouchListener: void setCanvasWidth(int)
+com.extra.gesture.GestureImageViewTouchListener: void setCanvasHeight(int)
+com.extra.gesture.GestureImageViewTouchListener: void setFitScaleHorizontal(float)
+com.extra.gesture.GestureImageViewTouchListener: void setFitScaleVertical(float)
+com.extra.gesture.GestureImageViewTouchListener: void boundCoordinates()
+com.extra.gesture.GestureImageViewTouchListener: void calculateBoundaries()
+com.extra.gesture.GestureImageViewTouchListener: android.graphics.PointF access$0(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener: float access$1(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener: float access$2(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener: void access$3(com.extra.gesture.GestureImageViewTouchListener,boolean)
+com.extra.gesture.GestureImageViewTouchListener: void access$4(com.extra.gesture.GestureImageViewTouchListener,android.view.MotionEvent)
+com.extra.gesture.GestureImageViewTouchListener: boolean access$5(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener: android.view.View$OnClickListener access$6(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener$1
+com.extra.gesture.GestureImageViewTouchListener$1: com.extra.gesture.GestureImageViewTouchListener this$0
+com.extra.gesture.GestureImageViewTouchListener$1: GestureImageViewTouchListener$1(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener$1: void onMove(float,float)
+com.extra.gesture.GestureImageViewTouchListener$1: void onComplete()
+com.extra.gesture.GestureImageViewTouchListener$2
+com.extra.gesture.GestureImageViewTouchListener$2: com.extra.gesture.GestureImageViewTouchListener this$0
+com.extra.gesture.GestureImageViewTouchListener$2: GestureImageViewTouchListener$2(com.extra.gesture.GestureImageViewTouchListener)
+com.extra.gesture.GestureImageViewTouchListener$2: void onZoom(float,float,float)
+com.extra.gesture.GestureImageViewTouchListener$2: void onComplete()
+com.extra.gesture.GestureImageViewTouchListener$3
+com.extra.gesture.GestureImageViewTouchListener$3: com.extra.gesture.GestureImageViewTouchListener this$0
+com.extra.gesture.GestureImageViewTouchListener$3: com.extra.gesture.GestureImageView val$image
+com.extra.gesture.GestureImageViewTouchListener$3: GestureImageViewTouchListener$3(com.extra.gesture.GestureImageViewTouchListener,com.extra.gesture.GestureImageView)
+com.extra.gesture.GestureImageViewTouchListener$3: void onMove(float,float)
+com.extra.gesture.GestureImageViewTouchListener$4
+com.extra.gesture.GestureImageViewTouchListener$4: com.extra.gesture.GestureImageViewTouchListener this$0
+com.extra.gesture.GestureImageViewTouchListener$4: com.extra.gesture.GestureImageView val$image
+com.extra.gesture.GestureImageViewTouchListener$4: GestureImageViewTouchListener$4(com.extra.gesture.GestureImageViewTouchListener,com.extra.gesture.GestureImageView)
+com.extra.gesture.GestureImageViewTouchListener$4: boolean onDoubleTap(android.view.MotionEvent)
+com.extra.gesture.GestureImageViewTouchListener$4: boolean onSingleTapConfirmed(android.view.MotionEvent)
+com.extra.gesture.MathUtils
+com.extra.gesture.MathUtils: MathUtils()
+com.extra.gesture.MathUtils: float distance(android.view.MotionEvent)
+com.extra.gesture.MathUtils: float distance(android.graphics.PointF,android.graphics.PointF)
+com.extra.gesture.MathUtils: float distance(float,float,float,float)
+com.extra.gesture.MathUtils: void midpoint(android.view.MotionEvent,android.graphics.PointF)
+com.extra.gesture.MathUtils: void midpoint(float,float,float,float,android.graphics.PointF)
+com.extra.gesture.MathUtils: void rotate(android.graphics.PointF,android.graphics.PointF,float)
+com.extra.gesture.MathUtils: float angle(android.graphics.PointF,android.graphics.PointF)
+com.extra.gesture.MathUtils: float angle(float,float,float,float)
+com.extra.gesture.MoveAnimation
+com.extra.gesture.MoveAnimation: boolean firstFrame
+com.extra.gesture.MoveAnimation: float startX
+com.extra.gesture.MoveAnimation: float startY
+com.extra.gesture.MoveAnimation: float targetX
+com.extra.gesture.MoveAnimation: float targetY
+com.extra.gesture.MoveAnimation: long animationTimeMS
+com.extra.gesture.MoveAnimation: long totalTime
+com.extra.gesture.MoveAnimation: com.extra.gesture.MoveAnimationListener moveAnimationListener
+com.extra.gesture.MoveAnimation: MoveAnimation()
+com.extra.gesture.MoveAnimation: boolean update(com.extra.gesture.GestureImageView,long)
+com.extra.gesture.MoveAnimation: void reset()
+com.extra.gesture.MoveAnimation: float getTargetX()
+com.extra.gesture.MoveAnimation: void setTargetX(float)
+com.extra.gesture.MoveAnimation: float getTargetY()
+com.extra.gesture.MoveAnimation: void setTargetY(float)
+com.extra.gesture.MoveAnimation: long getAnimationTimeMS()
+com.extra.gesture.MoveAnimation: void setAnimationTimeMS(long)
+com.extra.gesture.MoveAnimation: void setMoveAnimationListener(com.extra.gesture.MoveAnimationListener)
+com.extra.gesture.MoveAnimationListener
+com.extra.gesture.MoveAnimationListener: void onMove(float,float)
+com.extra.gesture.VectorF
+com.extra.gesture.VectorF: float angle
+com.extra.gesture.VectorF: float length
+com.extra.gesture.VectorF: android.graphics.PointF start
+com.extra.gesture.VectorF: android.graphics.PointF end
+com.extra.gesture.VectorF: VectorF()
+com.extra.gesture.VectorF: void calculateEndPoint()
+com.extra.gesture.VectorF: void setStart(android.graphics.PointF)
+com.extra.gesture.VectorF: void setEnd(android.graphics.PointF)
+com.extra.gesture.VectorF: void set(android.view.MotionEvent)
+com.extra.gesture.VectorF: float calculateLength()
+com.extra.gesture.VectorF: float calculateAngle()
+com.extra.gesture.ZoomAnimation
+com.extra.gesture.ZoomAnimation: boolean firstFrame
+com.extra.gesture.ZoomAnimation: float touchX
+com.extra.gesture.ZoomAnimation: float touchY
+com.extra.gesture.ZoomAnimation: float zoom
+com.extra.gesture.ZoomAnimation: float startX
+com.extra.gesture.ZoomAnimation: float startY
+com.extra.gesture.ZoomAnimation: float startScale
+com.extra.gesture.ZoomAnimation: float xDiff
+com.extra.gesture.ZoomAnimation: float yDiff
+com.extra.gesture.ZoomAnimation: float scaleDiff
+com.extra.gesture.ZoomAnimation: long animationLengthMS
+com.extra.gesture.ZoomAnimation: long totalTime
+com.extra.gesture.ZoomAnimation: com.extra.gesture.ZoomAnimationListener zoomAnimationListener
+com.extra.gesture.ZoomAnimation: ZoomAnimation()
+com.extra.gesture.ZoomAnimation: boolean update(com.extra.gesture.GestureImageView,long)
+com.extra.gesture.ZoomAnimation: void reset()
+com.extra.gesture.ZoomAnimation: float getZoom()
+com.extra.gesture.ZoomAnimation: void setZoom(float)
+com.extra.gesture.ZoomAnimation: float getTouchX()
+com.extra.gesture.ZoomAnimation: void setTouchX(float)
+com.extra.gesture.ZoomAnimation: float getTouchY()
+com.extra.gesture.ZoomAnimation: void setTouchY(float)
+com.extra.gesture.ZoomAnimation: long getAnimationLengthMS()
+com.extra.gesture.ZoomAnimation: void setAnimationLengthMS(long)
+com.extra.gesture.ZoomAnimation: com.extra.gesture.ZoomAnimationListener getZoomAnimationListener()
+com.extra.gesture.ZoomAnimation: void setZoomAnimationListener(com.extra.gesture.ZoomAnimationListener)
+com.extra.gesture.ZoomAnimationListener
+com.extra.gesture.ZoomAnimationListener: void onZoom(float,float,float)
+com.extra.gesture.ZoomAnimationListener: void onComplete()
+com.extra.viewpagerindicator.CirclePageIndicator
+com.extra.viewpagerindicator.CirclePageIndicator: int INVALID_POINTER
+com.extra.viewpagerindicator.CirclePageIndicator: float mRadius
+com.extra.viewpagerindicator.CirclePageIndicator: android.graphics.Paint mPaintPageFill
+com.extra.viewpagerindicator.CirclePageIndicator: android.graphics.Paint mPaintStroke
+com.extra.viewpagerindicator.CirclePageIndicator: android.graphics.Paint mPaintFill
+com.extra.viewpagerindicator.CirclePageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.CirclePageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.CirclePageIndicator: int mCurrentPage
+com.extra.viewpagerindicator.CirclePageIndicator: int mSnapPage
+com.extra.viewpagerindicator.CirclePageIndicator: float mPageOffset
+com.extra.viewpagerindicator.CirclePageIndicator: int mScrollState
+com.extra.viewpagerindicator.CirclePageIndicator: int mOrientation
+com.extra.viewpagerindicator.CirclePageIndicator: boolean mCentered
+com.extra.viewpagerindicator.CirclePageIndicator: boolean mSnap
+com.extra.viewpagerindicator.CirclePageIndicator: int mTouchSlop
+com.extra.viewpagerindicator.CirclePageIndicator: float mLastMotionX
+com.extra.viewpagerindicator.CirclePageIndicator: int mActivePointerId
+com.extra.viewpagerindicator.CirclePageIndicator: boolean mIsDragging
+com.extra.viewpagerindicator.CirclePageIndicator: CirclePageIndicator(android.content.Context)
+com.extra.viewpagerindicator.CirclePageIndicator: CirclePageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.CirclePageIndicator: CirclePageIndicator(android.content.Context,android.util.AttributeSet,int)
+com.extra.viewpagerindicator.CirclePageIndicator: void setCentered(boolean)
+com.extra.viewpagerindicator.CirclePageIndicator: boolean isCentered()
+com.extra.viewpagerindicator.CirclePageIndicator: void setPageColor(int)
+com.extra.viewpagerindicator.CirclePageIndicator: int getPageColor()
+com.extra.viewpagerindicator.CirclePageIndicator: void setFillColor(int)
+com.extra.viewpagerindicator.CirclePageIndicator: int getFillColor()
+com.extra.viewpagerindicator.CirclePageIndicator: void setOrientation(int)
+com.extra.viewpagerindicator.CirclePageIndicator: int getOrientation()
+com.extra.viewpagerindicator.CirclePageIndicator: void setStrokeColor(int)
+com.extra.viewpagerindicator.CirclePageIndicator: int getStrokeColor()
+com.extra.viewpagerindicator.CirclePageIndicator: void setStrokeWidth(float)
+com.extra.viewpagerindicator.CirclePageIndicator: float getStrokeWidth()
+com.extra.viewpagerindicator.CirclePageIndicator: void setRadius(float)
+com.extra.viewpagerindicator.CirclePageIndicator: float getRadius()
+com.extra.viewpagerindicator.CirclePageIndicator: void setSnap(boolean)
+com.extra.viewpagerindicator.CirclePageIndicator: boolean isSnap()
+com.extra.viewpagerindicator.CirclePageIndicator: void onDraw(android.graphics.Canvas)
+com.extra.viewpagerindicator.CirclePageIndicator: boolean onTouchEvent(android.view.MotionEvent)
+com.extra.viewpagerindicator.CirclePageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.CirclePageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.CirclePageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.CirclePageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.CirclePageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.CirclePageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.CirclePageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.CirclePageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.CirclePageIndicator: void onMeasure(int,int)
+com.extra.viewpagerindicator.CirclePageIndicator: int measureLong(int)
+com.extra.viewpagerindicator.CirclePageIndicator: int measureShort(int)
+com.extra.viewpagerindicator.CirclePageIndicator: void onRestoreInstanceState(android.os.Parcelable)
+com.extra.viewpagerindicator.CirclePageIndicator: android.os.Parcelable onSaveInstanceState()
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: int currentPage
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: void <clinit>()
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: CirclePageIndicator$SavedState(android.os.Parcelable)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: CirclePageIndicator$SavedState(android.os.Parcel)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: void writeToParcel(android.os.Parcel,int)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState: CirclePageIndicator$SavedState(android.os.Parcel,com.extra.viewpagerindicator.CirclePageIndicator$SavedState)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1: CirclePageIndicator$SavedState$1()
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1: com.extra.viewpagerindicator.CirclePageIndicator$SavedState createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1: com.extra.viewpagerindicator.CirclePageIndicator$SavedState[] newArray(int)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.CirclePageIndicator$SavedState$1: java.lang.Object[] newArray(int)
+com.extra.viewpagerindicator.IconPageIndicator
+com.extra.viewpagerindicator.IconPageIndicator: com.extra.viewpagerindicator.IcsLinearLayout mIconsLayout
+com.extra.viewpagerindicator.IconPageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.IconPageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.IconPageIndicator: java.lang.Runnable mIconSelector
+com.extra.viewpagerindicator.IconPageIndicator: int mSelectedIndex
+com.extra.viewpagerindicator.IconPageIndicator: IconPageIndicator(android.content.Context)
+com.extra.viewpagerindicator.IconPageIndicator: IconPageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.IconPageIndicator: void animateToIcon(int)
+com.extra.viewpagerindicator.IconPageIndicator: void onAttachedToWindow()
+com.extra.viewpagerindicator.IconPageIndicator: void onDetachedFromWindow()
+com.extra.viewpagerindicator.IconPageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.IconPageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.IconPageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.IconPageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.IconPageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.IconPageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.IconPageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.IconPageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.IconPageIndicator: void access$0(com.extra.viewpagerindicator.IconPageIndicator,java.lang.Runnable)
+com.extra.viewpagerindicator.IconPageIndicator$1
+com.extra.viewpagerindicator.IconPageIndicator$1: com.extra.viewpagerindicator.IconPageIndicator this$0
+com.extra.viewpagerindicator.IconPageIndicator$1: android.view.View val$iconView
+com.extra.viewpagerindicator.IconPageIndicator$1: IconPageIndicator$1(com.extra.viewpagerindicator.IconPageIndicator,android.view.View)
+com.extra.viewpagerindicator.IconPageIndicator$1: void run()
+com.extra.viewpagerindicator.IconPagerAdapter
+com.extra.viewpagerindicator.IconPagerAdapter: int getIconResId(int)
+com.extra.viewpagerindicator.IconPagerAdapter: int getCount()
+com.extra.viewpagerindicator.IcsLinearLayout
+com.extra.viewpagerindicator.IcsLinearLayout: int[] LL
+com.extra.viewpagerindicator.IcsLinearLayout: int LL_DIVIDER
+com.extra.viewpagerindicator.IcsLinearLayout: int LL_SHOW_DIVIDER
+com.extra.viewpagerindicator.IcsLinearLayout: int LL_DIVIDER_PADDING
+com.extra.viewpagerindicator.IcsLinearLayout: android.graphics.drawable.Drawable mDivider
+com.extra.viewpagerindicator.IcsLinearLayout: int mDividerWidth
+com.extra.viewpagerindicator.IcsLinearLayout: int mDividerHeight
+com.extra.viewpagerindicator.IcsLinearLayout: int mShowDividers
+com.extra.viewpagerindicator.IcsLinearLayout: int mDividerPadding
+com.extra.viewpagerindicator.IcsLinearLayout: void <clinit>()
+com.extra.viewpagerindicator.IcsLinearLayout: IcsLinearLayout(android.content.Context,int)
+com.extra.viewpagerindicator.IcsLinearLayout: void setDividerDrawable(android.graphics.drawable.Drawable)
+com.extra.viewpagerindicator.IcsLinearLayout: void measureChildWithMargins(android.view.View,int,int,int,int)
+com.extra.viewpagerindicator.IcsLinearLayout: void onDraw(android.graphics.Canvas)
+com.extra.viewpagerindicator.IcsLinearLayout: void drawDividersVertical(android.graphics.Canvas)
+com.extra.viewpagerindicator.IcsLinearLayout: void drawDividersHorizontal(android.graphics.Canvas)
+com.extra.viewpagerindicator.IcsLinearLayout: void drawHorizontalDivider(android.graphics.Canvas,int)
+com.extra.viewpagerindicator.IcsLinearLayout: void drawVerticalDivider(android.graphics.Canvas,int)
+com.extra.viewpagerindicator.IcsLinearLayout: boolean hasDividerBeforeChildAt(int)
+com.extra.viewpagerindicator.LinePageIndicator
+com.extra.viewpagerindicator.LinePageIndicator: int INVALID_POINTER
+com.extra.viewpagerindicator.LinePageIndicator: android.graphics.Paint mPaintUnselected
+com.extra.viewpagerindicator.LinePageIndicator: android.graphics.Paint mPaintSelected
+com.extra.viewpagerindicator.LinePageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.LinePageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.LinePageIndicator: int mCurrentPage
+com.extra.viewpagerindicator.LinePageIndicator: boolean mCentered
+com.extra.viewpagerindicator.LinePageIndicator: float mLineWidth
+com.extra.viewpagerindicator.LinePageIndicator: float mGapWidth
+com.extra.viewpagerindicator.LinePageIndicator: int mTouchSlop
+com.extra.viewpagerindicator.LinePageIndicator: float mLastMotionX
+com.extra.viewpagerindicator.LinePageIndicator: int mActivePointerId
+com.extra.viewpagerindicator.LinePageIndicator: boolean mIsDragging
+com.extra.viewpagerindicator.LinePageIndicator: LinePageIndicator(android.content.Context)
+com.extra.viewpagerindicator.LinePageIndicator: LinePageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.LinePageIndicator: LinePageIndicator(android.content.Context,android.util.AttributeSet,int)
+com.extra.viewpagerindicator.LinePageIndicator: void setCentered(boolean)
+com.extra.viewpagerindicator.LinePageIndicator: boolean isCentered()
+com.extra.viewpagerindicator.LinePageIndicator: void setUnselectedColor(int)
+com.extra.viewpagerindicator.LinePageIndicator: int getUnselectedColor()
+com.extra.viewpagerindicator.LinePageIndicator: void setSelectedColor(int)
+com.extra.viewpagerindicator.LinePageIndicator: int getSelectedColor()
+com.extra.viewpagerindicator.LinePageIndicator: void setLineWidth(float)
+com.extra.viewpagerindicator.LinePageIndicator: float getLineWidth()
+com.extra.viewpagerindicator.LinePageIndicator: void setStrokeWidth(float)
+com.extra.viewpagerindicator.LinePageIndicator: float getStrokeWidth()
+com.extra.viewpagerindicator.LinePageIndicator: void setGapWidth(float)
+com.extra.viewpagerindicator.LinePageIndicator: float getGapWidth()
+com.extra.viewpagerindicator.LinePageIndicator: void onDraw(android.graphics.Canvas)
+com.extra.viewpagerindicator.LinePageIndicator: boolean onTouchEvent(android.view.MotionEvent)
+com.extra.viewpagerindicator.LinePageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.LinePageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.LinePageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.LinePageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.LinePageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.LinePageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.LinePageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.LinePageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.LinePageIndicator: void onMeasure(int,int)
+com.extra.viewpagerindicator.LinePageIndicator: int measureWidth(int)
+com.extra.viewpagerindicator.LinePageIndicator: int measureHeight(int)
+com.extra.viewpagerindicator.LinePageIndicator: void onRestoreInstanceState(android.os.Parcelable)
+com.extra.viewpagerindicator.LinePageIndicator: android.os.Parcelable onSaveInstanceState()
+com.extra.viewpagerindicator.LinePageIndicator$SavedState
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: int currentPage
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: void <clinit>()
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: LinePageIndicator$SavedState(android.os.Parcelable)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: LinePageIndicator$SavedState(android.os.Parcel)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: void writeToParcel(android.os.Parcel,int)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState: LinePageIndicator$SavedState(android.os.Parcel,com.extra.viewpagerindicator.LinePageIndicator$SavedState)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1: LinePageIndicator$SavedState$1()
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1: com.extra.viewpagerindicator.LinePageIndicator$SavedState createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1: com.extra.viewpagerindicator.LinePageIndicator$SavedState[] newArray(int)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.LinePageIndicator$SavedState$1: java.lang.Object[] newArray(int)
+com.extra.viewpagerindicator.PageIndicator
+com.extra.viewpagerindicator.PageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.PageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.PageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.PageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.PageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.TabPageIndicator
+com.extra.viewpagerindicator.TabPageIndicator: java.lang.CharSequence EMPTY_TITLE
+com.extra.viewpagerindicator.TabPageIndicator: java.lang.Runnable mTabSelector
+com.extra.viewpagerindicator.TabPageIndicator: android.view.View$OnClickListener mTabClickListener
+com.extra.viewpagerindicator.TabPageIndicator: com.extra.viewpagerindicator.IcsLinearLayout mTabLayout
+com.extra.viewpagerindicator.TabPageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.TabPageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.TabPageIndicator: int mMaxTabWidth
+com.extra.viewpagerindicator.TabPageIndicator: int mSelectedTabIndex
+com.extra.viewpagerindicator.TabPageIndicator: com.extra.viewpagerindicator.TabPageIndicator$OnTabReselectedListener mTabReselectedListener
+com.extra.viewpagerindicator.TabPageIndicator: void <clinit>()
+com.extra.viewpagerindicator.TabPageIndicator: TabPageIndicator(android.content.Context)
+com.extra.viewpagerindicator.TabPageIndicator: TabPageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.TabPageIndicator: void setOnTabReselectedListener(com.extra.viewpagerindicator.TabPageIndicator$OnTabReselectedListener)
+com.extra.viewpagerindicator.TabPageIndicator: void onMeasure(int,int)
+com.extra.viewpagerindicator.TabPageIndicator: void animateToTab(int)
+com.extra.viewpagerindicator.TabPageIndicator: void onAttachedToWindow()
+com.extra.viewpagerindicator.TabPageIndicator: void onDetachedFromWindow()
+com.extra.viewpagerindicator.TabPageIndicator: void addTab(int,java.lang.CharSequence,int)
+com.extra.viewpagerindicator.TabPageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.TabPageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.TabPageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.TabPageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.TabPageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.TabPageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.TabPageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.TabPageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.TabPageIndicator: android.support.v4.view.ViewPager access$0(com.extra.viewpagerindicator.TabPageIndicator)
+com.extra.viewpagerindicator.TabPageIndicator: com.extra.viewpagerindicator.TabPageIndicator$OnTabReselectedListener access$1(com.extra.viewpagerindicator.TabPageIndicator)
+com.extra.viewpagerindicator.TabPageIndicator: int access$2(com.extra.viewpagerindicator.TabPageIndicator)
+com.extra.viewpagerindicator.TabPageIndicator: void access$3(com.extra.viewpagerindicator.TabPageIndicator,java.lang.Runnable)
+com.extra.viewpagerindicator.TabPageIndicator$1
+com.extra.viewpagerindicator.TabPageIndicator$1: com.extra.viewpagerindicator.TabPageIndicator this$0
+com.extra.viewpagerindicator.TabPageIndicator$1: TabPageIndicator$1(com.extra.viewpagerindicator.TabPageIndicator)
+com.extra.viewpagerindicator.TabPageIndicator$1: void onClick(android.view.View)
+com.extra.viewpagerindicator.TabPageIndicator$2
+com.extra.viewpagerindicator.TabPageIndicator$2: com.extra.viewpagerindicator.TabPageIndicator this$0
+com.extra.viewpagerindicator.TabPageIndicator$2: android.view.View val$tabView
+com.extra.viewpagerindicator.TabPageIndicator$2: TabPageIndicator$2(com.extra.viewpagerindicator.TabPageIndicator,android.view.View)
+com.extra.viewpagerindicator.TabPageIndicator$2: void run()
+com.extra.viewpagerindicator.TabPageIndicator$OnTabReselectedListener
+com.extra.viewpagerindicator.TabPageIndicator$OnTabReselectedListener: void onTabReselected(int)
+com.extra.viewpagerindicator.TabPageIndicator$TabView
+com.extra.viewpagerindicator.TabPageIndicator$TabView: int mIndex
+com.extra.viewpagerindicator.TabPageIndicator$TabView: com.extra.viewpagerindicator.TabPageIndicator this$0
+com.extra.viewpagerindicator.TabPageIndicator$TabView: TabPageIndicator$TabView(com.extra.viewpagerindicator.TabPageIndicator,android.content.Context)
+com.extra.viewpagerindicator.TabPageIndicator$TabView: void onMeasure(int,int)
+com.extra.viewpagerindicator.TabPageIndicator$TabView: int getIndex()
+com.extra.viewpagerindicator.TabPageIndicator$TabView: void access$0(com.extra.viewpagerindicator.TabPageIndicator$TabView,int)
+com.extra.viewpagerindicator.TitlePageIndicator
+com.extra.viewpagerindicator.TitlePageIndicator: float SELECTION_FADE_PERCENTAGE
+com.extra.viewpagerindicator.TitlePageIndicator: float BOLD_FADE_PERCENTAGE
+com.extra.viewpagerindicator.TitlePageIndicator: java.lang.String EMPTY_TITLE
+com.extra.viewpagerindicator.TitlePageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.TitlePageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.TitlePageIndicator: int mCurrentPage
+com.extra.viewpagerindicator.TitlePageIndicator: float mPageOffset
+com.extra.viewpagerindicator.TitlePageIndicator: int mScrollState
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Paint mPaintText
+com.extra.viewpagerindicator.TitlePageIndicator: boolean mBoldText
+com.extra.viewpagerindicator.TitlePageIndicator: int mColorText
+com.extra.viewpagerindicator.TitlePageIndicator: int mColorSelected
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Path mPath
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Rect mBounds
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Paint mPaintFooterLine
+com.extra.viewpagerindicator.TitlePageIndicator: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle mFooterIndicatorStyle
+com.extra.viewpagerindicator.TitlePageIndicator: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition mLinePosition
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Paint mPaintFooterIndicator
+com.extra.viewpagerindicator.TitlePageIndicator: float mFooterIndicatorHeight
+com.extra.viewpagerindicator.TitlePageIndicator: float mFooterIndicatorUnderlinePadding
+com.extra.viewpagerindicator.TitlePageIndicator: float mFooterPadding
+com.extra.viewpagerindicator.TitlePageIndicator: float mTitlePadding
+com.extra.viewpagerindicator.TitlePageIndicator: float mTopPadding
+com.extra.viewpagerindicator.TitlePageIndicator: float mClipPadding
+com.extra.viewpagerindicator.TitlePageIndicator: float mFooterLineHeight
+com.extra.viewpagerindicator.TitlePageIndicator: int INVALID_POINTER
+com.extra.viewpagerindicator.TitlePageIndicator: int mTouchSlop
+com.extra.viewpagerindicator.TitlePageIndicator: float mLastMotionX
+com.extra.viewpagerindicator.TitlePageIndicator: int mActivePointerId
+com.extra.viewpagerindicator.TitlePageIndicator: boolean mIsDragging
+com.extra.viewpagerindicator.TitlePageIndicator: com.extra.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener mCenterItemClickListener
+com.extra.viewpagerindicator.TitlePageIndicator: int[] $SWITCH_TABLE$com$extra$viewpagerindicator$TitlePageIndicator$IndicatorStyle
+com.extra.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context)
+com.extra.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.TitlePageIndicator: TitlePageIndicator(android.content.Context,android.util.AttributeSet,int)
+com.extra.viewpagerindicator.TitlePageIndicator: int getFooterColor()
+com.extra.viewpagerindicator.TitlePageIndicator: void setFooterColor(int)
+com.extra.viewpagerindicator.TitlePageIndicator: float getFooterLineHeight()
+com.extra.viewpagerindicator.TitlePageIndicator: void setFooterLineHeight(float)
+com.extra.viewpagerindicator.TitlePageIndicator: float getFooterIndicatorHeight()
+com.extra.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorHeight(float)
+com.extra.viewpagerindicator.TitlePageIndicator: float getFooterIndicatorPadding()
+com.extra.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorPadding(float)
+com.extra.viewpagerindicator.TitlePageIndicator: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle getFooterIndicatorStyle()
+com.extra.viewpagerindicator.TitlePageIndicator: void setFooterIndicatorStyle(com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle)
+com.extra.viewpagerindicator.TitlePageIndicator: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition getLinePosition()
+com.extra.viewpagerindicator.TitlePageIndicator: void setLinePosition(com.extra.viewpagerindicator.TitlePageIndicator$LinePosition)
+com.extra.viewpagerindicator.TitlePageIndicator: int getSelectedColor()
+com.extra.viewpagerindicator.TitlePageIndicator: void setSelectedColor(int)
+com.extra.viewpagerindicator.TitlePageIndicator: boolean isSelectedBold()
+com.extra.viewpagerindicator.TitlePageIndicator: void setSelectedBold(boolean)
+com.extra.viewpagerindicator.TitlePageIndicator: int getTextColor()
+com.extra.viewpagerindicator.TitlePageIndicator: void setTextColor(int)
+com.extra.viewpagerindicator.TitlePageIndicator: float getTextSize()
+com.extra.viewpagerindicator.TitlePageIndicator: void setTextSize(float)
+com.extra.viewpagerindicator.TitlePageIndicator: float getTitlePadding()
+com.extra.viewpagerindicator.TitlePageIndicator: void setTitlePadding(float)
+com.extra.viewpagerindicator.TitlePageIndicator: float getTopPadding()
+com.extra.viewpagerindicator.TitlePageIndicator: void setTopPadding(float)
+com.extra.viewpagerindicator.TitlePageIndicator: float getClipPadding()
+com.extra.viewpagerindicator.TitlePageIndicator: void setClipPadding(float)
+com.extra.viewpagerindicator.TitlePageIndicator: void setTypeface(android.graphics.Typeface)
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Typeface getTypeface()
+com.extra.viewpagerindicator.TitlePageIndicator: void onDraw(android.graphics.Canvas)
+com.extra.viewpagerindicator.TitlePageIndicator: boolean onTouchEvent(android.view.MotionEvent)
+com.extra.viewpagerindicator.TitlePageIndicator: void clipViewOnTheRight(android.graphics.Rect,float,int)
+com.extra.viewpagerindicator.TitlePageIndicator: void clipViewOnTheLeft(android.graphics.Rect,float,int)
+com.extra.viewpagerindicator.TitlePageIndicator: java.util.ArrayList calculateAllBounds(android.graphics.Paint)
+com.extra.viewpagerindicator.TitlePageIndicator: android.graphics.Rect calcBounds(int,android.graphics.Paint)
+com.extra.viewpagerindicator.TitlePageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.TitlePageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.TitlePageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.TitlePageIndicator: void setOnCenterItemClickListener(com.extra.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener)
+com.extra.viewpagerindicator.TitlePageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.TitlePageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.TitlePageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.TitlePageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.TitlePageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.TitlePageIndicator: void onMeasure(int,int)
+com.extra.viewpagerindicator.TitlePageIndicator: void onRestoreInstanceState(android.os.Parcelable)
+com.extra.viewpagerindicator.TitlePageIndicator: android.os.Parcelable onSaveInstanceState()
+com.extra.viewpagerindicator.TitlePageIndicator: java.lang.CharSequence getTitle(int)
+com.extra.viewpagerindicator.TitlePageIndicator: int[] $SWITCH_TABLE$com$extra$viewpagerindicator$TitlePageIndicator$IndicatorStyle()
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle None
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle Triangle
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle Underline
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: int value
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle[] ENUM$VALUES
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: void <clinit>()
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: TitlePageIndicator$IndicatorStyle(java.lang.String,int,int)
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle fromValue(int)
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle[] values()
+com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle: com.extra.viewpagerindicator.TitlePageIndicator$IndicatorStyle valueOf(java.lang.String)
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition Bottom
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition Top
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: int value
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition[] ENUM$VALUES
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: void <clinit>()
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: TitlePageIndicator$LinePosition(java.lang.String,int,int)
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition fromValue(int)
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition[] values()
+com.extra.viewpagerindicator.TitlePageIndicator$LinePosition: com.extra.viewpagerindicator.TitlePageIndicator$LinePosition valueOf(java.lang.String)
+com.extra.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener
+com.extra.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener: void onCenterItemClick(int)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: int currentPage
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: void <clinit>()
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: TitlePageIndicator$SavedState(android.os.Parcelable)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: TitlePageIndicator$SavedState(android.os.Parcel)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: void writeToParcel(android.os.Parcel,int)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState: TitlePageIndicator$SavedState(android.os.Parcel,com.extra.viewpagerindicator.TitlePageIndicator$SavedState)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1: TitlePageIndicator$SavedState$1()
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1: com.extra.viewpagerindicator.TitlePageIndicator$SavedState createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1: com.extra.viewpagerindicator.TitlePageIndicator$SavedState[] newArray(int)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.TitlePageIndicator$SavedState$1: java.lang.Object[] newArray(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator
+com.extra.viewpagerindicator.UnderlinePageIndicator: int INVALID_POINTER
+com.extra.viewpagerindicator.UnderlinePageIndicator: int FADE_FRAME_MS
+com.extra.viewpagerindicator.UnderlinePageIndicator: android.graphics.Paint mPaint
+com.extra.viewpagerindicator.UnderlinePageIndicator: boolean mFades
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mFadeDelay
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mFadeLength
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mFadeBy
+com.extra.viewpagerindicator.UnderlinePageIndicator: android.support.v4.view.ViewPager mViewPager
+com.extra.viewpagerindicator.UnderlinePageIndicator: android.support.v4.view.ViewPager$OnPageChangeListener mListener
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mScrollState
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mCurrentPage
+com.extra.viewpagerindicator.UnderlinePageIndicator: float mPositionOffset
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mTouchSlop
+com.extra.viewpagerindicator.UnderlinePageIndicator: float mLastMotionX
+com.extra.viewpagerindicator.UnderlinePageIndicator: int mActivePointerId
+com.extra.viewpagerindicator.UnderlinePageIndicator: boolean mIsDragging
+com.extra.viewpagerindicator.UnderlinePageIndicator: java.lang.Runnable mFadeRunnable
+com.extra.viewpagerindicator.UnderlinePageIndicator: UnderlinePageIndicator(android.content.Context)
+com.extra.viewpagerindicator.UnderlinePageIndicator: UnderlinePageIndicator(android.content.Context,android.util.AttributeSet)
+com.extra.viewpagerindicator.UnderlinePageIndicator: UnderlinePageIndicator(android.content.Context,android.util.AttributeSet,int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: boolean getFades()
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setFades(boolean)
+com.extra.viewpagerindicator.UnderlinePageIndicator: int getFadeDelay()
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setFadeDelay(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: int getFadeLength()
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setFadeLength(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: int getSelectedColor()
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setSelectedColor(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void onDraw(android.graphics.Canvas)
+com.extra.viewpagerindicator.UnderlinePageIndicator: boolean onTouchEvent(android.view.MotionEvent)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setViewPager(android.support.v4.view.ViewPager)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setViewPager(android.support.v4.view.ViewPager,int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setCurrentItem(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void notifyDataSetChanged()
+com.extra.viewpagerindicator.UnderlinePageIndicator: void onPageScrollStateChanged(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void onPageScrolled(int,float,int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void onPageSelected(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.extra.viewpagerindicator.UnderlinePageIndicator: void onRestoreInstanceState(android.os.Parcelable)
+com.extra.viewpagerindicator.UnderlinePageIndicator: android.os.Parcelable onSaveInstanceState()
+com.extra.viewpagerindicator.UnderlinePageIndicator: boolean access$0(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator: android.graphics.Paint access$1(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator: int access$2(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator: java.lang.Runnable access$3(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator$1
+com.extra.viewpagerindicator.UnderlinePageIndicator$1: com.extra.viewpagerindicator.UnderlinePageIndicator this$0
+com.extra.viewpagerindicator.UnderlinePageIndicator$1: UnderlinePageIndicator$1(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator$1: void run()
+com.extra.viewpagerindicator.UnderlinePageIndicator$2
+com.extra.viewpagerindicator.UnderlinePageIndicator$2: com.extra.viewpagerindicator.UnderlinePageIndicator this$0
+com.extra.viewpagerindicator.UnderlinePageIndicator$2: UnderlinePageIndicator$2(com.extra.viewpagerindicator.UnderlinePageIndicator)
+com.extra.viewpagerindicator.UnderlinePageIndicator$2: void run()
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: int currentPage
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: void <clinit>()
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: UnderlinePageIndicator$SavedState(android.os.Parcelable)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: UnderlinePageIndicator$SavedState(android.os.Parcel)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: void writeToParcel(android.os.Parcel,int)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState: UnderlinePageIndicator$SavedState(android.os.Parcel,com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1: UnderlinePageIndicator$SavedState$1()
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1: com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1: com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState[] newArray(int)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.extra.viewpagerindicator.UnderlinePageIndicator$SavedState$1: java.lang.Object[] newArray(int)
+com.extra.xlistview.IXListViewDownGlideListener
+com.extra.xlistview.IXListViewDownGlideListener: void onDownGlide()
+com.extra.xlistview.IXListViewLoadMore
+com.extra.xlistview.IXListViewLoadMore: void onLoadMore()
+com.extra.xlistview.IXListViewRefreshListener
+com.extra.xlistview.IXListViewRefreshListener: void onRefresh()
+com.extra.xlistview.IXListViewUpGlideListener
+com.extra.xlistview.IXListViewUpGlideListener: void onUpGlide()
+com.extra.xlistview.IXScrollListener
+com.extra.xlistview.IXScrollListener: void onXScrolling(android.view.View)
+com.extra.xlistview.XListView
+com.extra.xlistview.XListView: float mLastY
+com.extra.xlistview.XListView: android.widget.Scroller mScroller
+com.extra.xlistview.XListView: android.widget.AbsListView$OnScrollListener mScrollListener
+com.extra.xlistview.XListView: com.extra.xlistview.IXListViewLoadMore mLoadMore
+com.extra.xlistview.XListView: com.extra.xlistview.IXListViewRefreshListener mOnRefresh
+com.extra.xlistview.XListView: com.extra.xlistview.IXListViewUpGlideListener mOnUp
+com.extra.xlistview.XListView: com.extra.xlistview.IXListViewDownGlideListener mOnDown
+com.extra.xlistview.XListView: com.extra.xlistview.XListViewHeader mHeaderView
+com.extra.xlistview.XListView: android.widget.RelativeLayout mHeaderViewContent
+com.extra.xlistview.XListView: android.widget.TextView mHeaderTimeView
+com.extra.xlistview.XListView: android.widget.TextView mHeaderTimeViewTitle
+com.extra.xlistview.XListView: int mHeaderViewHeight
+com.extra.xlistview.XListView: boolean mEnablePullRefresh
+com.extra.xlistview.XListView: boolean mPullRefreshing
+com.extra.xlistview.XListView: com.extra.xlistview.XListViewFooter mFooterView
+com.extra.xlistview.XListView: boolean mEnablePullLoad
+com.extra.xlistview.XListView: boolean mPullLoading
+com.extra.xlistview.XListView: boolean mIsFooterReady
+com.extra.xlistview.XListView: int mTotalItemCount
+com.extra.xlistview.XListView: int mScrollBack
+com.extra.xlistview.XListView: int SCROLLBACK_HEADER
+com.extra.xlistview.XListView: int SCROLLBACK_FOOTER
+com.extra.xlistview.XListView: int SCROLL_DURATION
+com.extra.xlistview.XListView: int PULL_LOAD_MORE_DELTA
+com.extra.xlistview.XListView: float OFFSET_RADIO
+com.extra.xlistview.XListView: boolean isDown
+com.extra.xlistview.XListView: boolean isUp
+com.extra.xlistview.XListView: float lastX
+com.extra.xlistview.XListView: float lastY
+com.extra.xlistview.XListView: XListView(android.content.Context)
+com.extra.xlistview.XListView: XListView(android.content.Context,android.util.AttributeSet)
+com.extra.xlistview.XListView: XListView(android.content.Context,android.util.AttributeSet,int)
+com.extra.xlistview.XListView: void initWithContext(android.content.Context)
+com.extra.xlistview.XListView: void onLayout(boolean,int,int,int,int)
+com.extra.xlistview.XListView: void setAdapter(android.widget.ListAdapter)
+com.extra.xlistview.XListView: void setPullRefreshEnable(com.extra.xlistview.IXListViewRefreshListener)
+com.extra.xlistview.XListView: void disablePullRefreash()
+com.extra.xlistview.XListView: void setUpGlideListener(com.extra.xlistview.IXListViewUpGlideListener)
+com.extra.xlistview.XListView: void setDownGlideListener(com.extra.xlistview.IXListViewDownGlideListener)
+com.extra.xlistview.XListView: void setPullLoadEnable(com.extra.xlistview.IXListViewLoadMore)
+com.extra.xlistview.XListView: void disablePullLoad()
+com.extra.xlistview.XListView: void stopRefresh(java.lang.String)
+com.extra.xlistview.XListView: void stopLoadMore()
+com.extra.xlistview.XListView: void invokeOnScrolling()
+com.extra.xlistview.XListView: void updateHeaderHeight(float)
+com.extra.xlistview.XListView: void resetHeaderHeight()
+com.extra.xlistview.XListView: void resetHeaderHeight(int)
+com.extra.xlistview.XListView: void updateFooterHeight(float)
+com.extra.xlistview.XListView: void resetFooterHeight()
+com.extra.xlistview.XListView: void startLoadMore()
+com.extra.xlistview.XListView: boolean onTouchEvent(android.view.MotionEvent)
+com.extra.xlistview.XListView: void startOnRefresh()
+com.extra.xlistview.XListView: void startRefresh()
+com.extra.xlistview.XListView: void stopRefresh()
+com.extra.xlistview.XListView: void NotRefreshAtBegin()
+com.extra.xlistview.XListView: void setRefreshTime(java.lang.String)
+com.extra.xlistview.XListView: void stopLoadMore(java.lang.String)
+com.extra.xlistview.XListView: void computeScroll()
+com.extra.xlistview.XListView: void setOnScrollListener(android.widget.AbsListView$OnScrollListener)
+com.extra.xlistview.XListView: void onScrollStateChanged(android.widget.AbsListView,int)
+com.extra.xlistview.XListView: void onScroll(android.widget.AbsListView,int,int,int)
+com.extra.xlistview.XListView$1
+com.extra.xlistview.XListView$1: com.extra.xlistview.XListView this$0
+com.extra.xlistview.XListView$1: XListView$1(com.extra.xlistview.XListView)
+com.extra.xlistview.XListView$1: void onGlobalLayout()
+com.extra.xlistview.XListView$2
+com.extra.xlistview.XListView$2: com.extra.xlistview.XListView this$0
+com.extra.xlistview.XListView$2: XListView$2(com.extra.xlistview.XListView)
+com.extra.xlistview.XListView$2: void onClick(android.view.View)
+com.extra.xlistview.XListViewFooter
+com.extra.xlistview.XListViewFooter: int STATE_NORMAL
+com.extra.xlistview.XListViewFooter: int STATE_READY
+com.extra.xlistview.XListViewFooter: int STATE_LOADING
+com.extra.xlistview.XListViewFooter: android.content.Context mContext
+com.extra.xlistview.XListViewFooter: android.view.View mContentView
+com.extra.xlistview.XListViewFooter: android.view.View mProgressBar
+com.extra.xlistview.XListViewFooter: android.widget.TextView mHintView
+com.extra.xlistview.XListViewFooter: XListViewFooter(android.content.Context)
+com.extra.xlistview.XListViewFooter: XListViewFooter(android.content.Context,android.util.AttributeSet)
+com.extra.xlistview.XListViewFooter: void setState(int)
+com.extra.xlistview.XListViewFooter: void setText(java.lang.String)
+com.extra.xlistview.XListViewFooter: void setBottomMargin(int)
+com.extra.xlistview.XListViewFooter: int getBottomMargin()
+com.extra.xlistview.XListViewFooter: void normal()
+com.extra.xlistview.XListViewFooter: void loading()
+com.extra.xlistview.XListViewFooter: void hide()
+com.extra.xlistview.XListViewFooter: void show()
+com.extra.xlistview.XListViewFooter: void initView(android.content.Context)
+com.extra.xlistview.XListViewHeader
+com.extra.xlistview.XListViewHeader: android.widget.LinearLayout mContainer
+com.extra.xlistview.XListViewHeader: android.widget.ImageView mArrowImageView
+com.extra.xlistview.XListViewHeader: android.widget.ProgressBar mProgressBar
+com.extra.xlistview.XListViewHeader: android.widget.TextView mHintTextView
+com.extra.xlistview.XListViewHeader: int mState
+com.extra.xlistview.XListViewHeader: android.view.animation.Animation mRotateUpAnim
+com.extra.xlistview.XListViewHeader: android.view.animation.Animation mRotateDownAnim
+com.extra.xlistview.XListViewHeader: int ROTATE_ANIM_DURATION
+com.extra.xlistview.XListViewHeader: int STATE_NORMAL
+com.extra.xlistview.XListViewHeader: int STATE_READY
+com.extra.xlistview.XListViewHeader: int STATE_REFRESHING
+com.extra.xlistview.XListViewHeader: XListViewHeader(android.content.Context)
+com.extra.xlistview.XListViewHeader: XListViewHeader(android.content.Context,android.util.AttributeSet)
+com.extra.xlistview.XListViewHeader: void initView(android.content.Context)
+com.extra.xlistview.XListViewHeader: void setState(int)
+com.extra.xlistview.XListViewHeader: void setVisiableHeight(int)
+com.extra.xlistview.XListViewHeader: int getVisiableHeight()
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType[] values()
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom[] values()
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType[] values()
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme[] values()
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme valueOf(java.lang.String)
+com.zack.csdn.CSDN
+com.zack.csdn.CSDN: CSDN()
+com.zack.csdn.R$anim: int activity_translate_bottom_in
+com.zack.csdn.R$anim: int activity_translate_bottom_out
+com.zack.csdn.R$anim: int activity_translate_right_close_in
+com.zack.csdn.R$anim: int activity_translate_right_close_out
+com.zack.csdn.R$anim: int activity_translate_right_in
+com.zack.csdn.R$anim: int activity_translate_right_out
+com.zack.csdn.R$anim: int activity_translate_top_in
+com.zack.csdn.R$anim: int activity_translate_top_out
+com.zack.csdn.R$anim: int listanim
+com.zack.csdn.R$array: int tabTitles
+com.zack.csdn.R$attr: int actionBarRoot
+com.zack.csdn.R$attr: int actionBarTitle
+com.zack.csdn.R$attr: int centered
+com.zack.csdn.R$attr: int clipPadding
+com.zack.csdn.R$attr: int fadeDelay
+com.zack.csdn.R$attr: int fadeLength
+com.zack.csdn.R$attr: int fades
+com.zack.csdn.R$attr: int fillColor
+com.zack.csdn.R$attr: int footerColor
+com.zack.csdn.R$attr: int footerIndicatorHeight
+com.zack.csdn.R$attr: int footerIndicatorStyle
+com.zack.csdn.R$attr: int footerIndicatorUnderlinePadding
+com.zack.csdn.R$attr: int footerLineHeight
+com.zack.csdn.R$attr: int footerPadding
+com.zack.csdn.R$attr: int gapWidth
+com.zack.csdn.R$attr: int infoContentActivityRootbackground
+com.zack.csdn.R$attr: int infoContentBoldTitleItem
+com.zack.csdn.R$attr: int infoContentItem
+com.zack.csdn.R$attr: int infoContentSummaryItem
+com.zack.csdn.R$attr: int infoContentTitleItem
+com.zack.csdn.R$attr: int infoItemCell
+com.zack.csdn.R$attr: int infoItemCellTitle
+com.zack.csdn.R$attr: int linePosition
+com.zack.csdn.R$attr: int lineWidth
+com.zack.csdn.R$attr: int mode
+com.zack.csdn.R$attr: int pageColor
+com.zack.csdn.R$attr: int radius
+com.zack.csdn.R$attr: int selectedBold
+com.zack.csdn.R$attr: int selectedColor
+com.zack.csdn.R$attr: int snap
+com.zack.csdn.R$attr: int strokeColor
+com.zack.csdn.R$attr: int strokeWidth
+com.zack.csdn.R$attr: int tabItemFragmentMain
+com.zack.csdn.R$attr: int titlePadding
+com.zack.csdn.R$attr: int topPadding
+com.zack.csdn.R$attr: int unselectedColor
+com.zack.csdn.R$attr: int vpiCirclePageIndicatorStyle
+com.zack.csdn.R$attr: int vpiIconPageIndicatorStyle
+com.zack.csdn.R$attr: int vpiLinePageIndicatorStyle
+com.zack.csdn.R$attr: int vpiTabPageIndicatorStyle
+com.zack.csdn.R$attr: int vpiTitlePageIndicatorStyle
+com.zack.csdn.R$attr: int vpiUnderlinePageIndicatorStyle
+com.zack.csdn.R$bool: int default_circle_indicator_centered
+com.zack.csdn.R$bool: int default_circle_indicator_snap
+com.zack.csdn.R$bool: int default_line_indicator_centered
+com.zack.csdn.R$bool: int default_title_indicator_selected_bold
+com.zack.csdn.R$bool: int default_underline_indicator_fades
+com.zack.csdn.R$color: int background_color_default
+com.zack.csdn.R$color: int background_color_gray
+com.zack.csdn.R$color: int background_color_green
+com.zack.csdn.R$color: int background_color_transparent
+com.zack.csdn.R$color: int background_color_transparent1
+com.zack.csdn.R$color: int background_color_transparent2
+com.zack.csdn.R$color: int background_color_white
+com.zack.csdn.R$color: int black
+com.zack.csdn.R$color: int black1
+com.zack.csdn.R$color: int black2
+com.zack.csdn.R$color: int black3
+com.zack.csdn.R$color: int blue1
+com.zack.csdn.R$color: int button_color_level_1
+com.zack.csdn.R$color: int button_color_level_1_enabled
+com.zack.csdn.R$color: int button_color_level_1_pressed
+com.zack.csdn.R$color: int button_color_level_2
+com.zack.csdn.R$color: int button_color_level_2_enabled
+com.zack.csdn.R$color: int button_color_level_2_pressed
+com.zack.csdn.R$color: int default_circle_indicator_fill_color
+com.zack.csdn.R$color: int default_circle_indicator_page_color
+com.zack.csdn.R$color: int default_circle_indicator_stroke_color
+com.zack.csdn.R$color: int default_line_indicator_selected_color
+com.zack.csdn.R$color: int default_line_indicator_unselected_color
+com.zack.csdn.R$color: int default_title_indicator_footer_color
+com.zack.csdn.R$color: int default_title_indicator_selected_color
+com.zack.csdn.R$color: int default_title_indicator_text_color
+com.zack.csdn.R$color: int default_underline_indicator_selected_color
+com.zack.csdn.R$color: int line
+com.zack.csdn.R$color: int red1
+com.zack.csdn.R$color: int red2
+com.zack.csdn.R$color: int text_color_black
+com.zack.csdn.R$color: int text_color_black1
+com.zack.csdn.R$color: int text_color_dark_gray
+com.zack.csdn.R$color: int text_color_dark_gray1
+com.zack.csdn.R$color: int text_color_dark_gray2
+com.zack.csdn.R$color: int text_color_dark_gray3
+com.zack.csdn.R$color: int text_color_dark_gray4
+com.zack.csdn.R$color: int text_color_dark_gray5
+com.zack.csdn.R$color: int text_color_gray
+com.zack.csdn.R$color: int text_color_green
+com.zack.csdn.R$color: int text_color_light_gray
+com.zack.csdn.R$color: int text_color_light_gray1
+com.zack.csdn.R$color: int text_color_orange
+com.zack.csdn.R$color: int text_color_red
+com.zack.csdn.R$color: int text_color_white
+com.zack.csdn.R$color: int transparent
+com.zack.csdn.R$color: int vpi__background_holo_dark
+com.zack.csdn.R$color: int vpi__background_holo_light
+com.zack.csdn.R$color: int vpi__bright_foreground_disabled_holo_dark
+com.zack.csdn.R$color: int vpi__bright_foreground_disabled_holo_light
+com.zack.csdn.R$color: int vpi__bright_foreground_holo_dark
+com.zack.csdn.R$color: int vpi__bright_foreground_holo_light
+com.zack.csdn.R$color: int vpi__bright_foreground_inverse_holo_dark
+com.zack.csdn.R$color: int vpi__bright_foreground_inverse_holo_light
+com.zack.csdn.R$color: int white
+com.zack.csdn.R$color: int white1
+com.zack.csdn.R$color: int white2
+com.zack.csdn.R$dimen: int activity_horizontal_margin
+com.zack.csdn.R$dimen: int activity_vertical_margin
+com.zack.csdn.R$dimen: int default_circle_indicator_radius
+com.zack.csdn.R$dimen: int default_circle_indicator_stroke_width
+com.zack.csdn.R$dimen: int default_line_indicator_gap_width
+com.zack.csdn.R$dimen: int default_line_indicator_line_width
+com.zack.csdn.R$dimen: int default_line_indicator_stroke_width
+com.zack.csdn.R$dimen: int default_title_indicator_clip_padding
+com.zack.csdn.R$dimen: int default_title_indicator_footer_indicator_height
+com.zack.csdn.R$dimen: int default_title_indicator_footer_indicator_underline_padding
+com.zack.csdn.R$dimen: int default_title_indicator_footer_line_height
+com.zack.csdn.R$dimen: int default_title_indicator_footer_padding
+com.zack.csdn.R$dimen: int default_title_indicator_text_size
+com.zack.csdn.R$dimen: int default_title_indicator_title_padding
+com.zack.csdn.R$dimen: int default_title_indicator_top_padding
+com.zack.csdn.R$drawable: int back
+com.zack.csdn.R$drawable: int default_image
+com.zack.csdn.R$drawable: int ic_action_moon
+com.zack.csdn.R$drawable: int ic_launcher
+com.zack.csdn.R$drawable: int tab_indicator_background_day
+com.zack.csdn.R$drawable: int tab_indicator_background_night
+com.zack.csdn.R$drawable: int tab_selected
+com.zack.csdn.R$drawable: int tab_selected_night
+com.zack.csdn.R$drawable: int tab_text_color_day
+com.zack.csdn.R$drawable: int tab_text_color_night
+com.zack.csdn.R$drawable: int tab_unselected
+com.zack.csdn.R$drawable: int tab_unselected_night
+com.zack.csdn.R$drawable: int toast_bg
+com.zack.csdn.R$drawable: int toast_view_background
+com.zack.csdn.R$drawable: int vpi__dark_theme
+com.zack.csdn.R$drawable: int vpi__light_theme
+com.zack.csdn.R$drawable: int vpi__tab_indicator
+com.zack.csdn.R$drawable: int vpi__tab_selected_focused_holo
+com.zack.csdn.R$drawable: int vpi__tab_selected_holo
+com.zack.csdn.R$drawable: int vpi__tab_selected_pressed_holo
+com.zack.csdn.R$drawable: int vpi__tab_unselected_focused_holo
+com.zack.csdn.R$drawable: int vpi__tab_unselected_holo
+com.zack.csdn.R$drawable: int vpi__tab_unselected_pressed_holo
+com.zack.csdn.R$drawable: int xlistview_arrow
+com.zack.csdn.R$id: int actionBarRoot
+com.zack.csdn.R$id: int actionBarTitle
+com.zack.csdn.R$id: int action_bar
+com.zack.csdn.R$id: int back
+com.zack.csdn.R$id: int bottom
+com.zack.csdn.R$id: int content
+com.zack.csdn.R$id: int date
+com.zack.csdn.R$id: int gestureImageView
+com.zack.csdn.R$id: int image
+com.zack.csdn.R$id: int imageView
+com.zack.csdn.R$id: int mainActivityRoot
+com.zack.csdn.R$id: int mode
+com.zack.csdn.R$id: int none
+com.zack.csdn.R$id: int progressBar
+com.zack.csdn.R$id: int tabPageIndicator
+com.zack.csdn.R$id: int text
+com.zack.csdn.R$id: int title
+com.zack.csdn.R$id: int toast_text
+com.zack.csdn.R$id: int top
+com.zack.csdn.R$id: int top_layout
+com.zack.csdn.R$id: int triangle
+com.zack.csdn.R$id: int underline
+com.zack.csdn.R$id: int viewPager
+com.zack.csdn.R$id: int xListView
+com.zack.csdn.R$id: int xlistView
+com.zack.csdn.R$id: int xlistview_footer_content
+com.zack.csdn.R$id: int xlistview_footer_hint_textview
+com.zack.csdn.R$id: int xlistview_footer_progressbar
+com.zack.csdn.R$id: int xlistview_header_arrow
+com.zack.csdn.R$id: int xlistview_header_content
+com.zack.csdn.R$id: int xlistview_header_hint_textview
+com.zack.csdn.R$id: int xlistview_header_progressbar
+com.zack.csdn.R$id: int xlistview_header_text
+com.zack.csdn.R$id: int xlistview_header_time
+com.zack.csdn.R$id: int xlistview_header_time_title
+com.zack.csdn.R$integer: int default_circle_indicator_orientation
+com.zack.csdn.R$integer: int default_title_indicator_footer_indicator_style
+com.zack.csdn.R$integer: int default_title_indicator_line_position
+com.zack.csdn.R$integer: int default_underline_indicator_fade_delay
+com.zack.csdn.R$integer: int default_underline_indicator_fade_length
+com.zack.csdn.R$layout: int action_bar
+com.zack.csdn.R$layout: int image_show_activity
+com.zack.csdn.R$layout: int info_content_activity
+com.zack.csdn.R$layout: int info_content_bold_title_item
+com.zack.csdn.R$layout: int info_content_img_item
+com.zack.csdn.R$layout: int info_content_item
+com.zack.csdn.R$layout: int info_content_summary_item
+com.zack.csdn.R$layout: int info_content_title_item
+com.zack.csdn.R$layout: int info_item_cell
+com.zack.csdn.R$layout: int main_activity
+com.zack.csdn.R$layout: int tab_item_fragment_main
+com.zack.csdn.R$layout: int toast_view
+com.zack.csdn.R$layout: int xlistview_footer
+com.zack.csdn.R$layout: int xlistview_header
+com.zack.csdn.R$string: int app_name
+com.zack.csdn.R$string: int day
+com.zack.csdn.R$string: int night
+com.zack.csdn.R$string: int not_update
+com.zack.csdn.R$string: int title
+com.zack.csdn.R$string: int without_the_internet
+com.zack.csdn.R$string: int xlistview_footer_hint_normal
+com.zack.csdn.R$string: int xlistview_footer_hint_ready
+com.zack.csdn.R$string: int xlistview_header_hint_loading
+com.zack.csdn.R$string: int xlistview_header_hint_normal
+com.zack.csdn.R$string: int xlistview_header_hint_ready
+com.zack.csdn.R$string: int xlistview_header_last_time
+com.zack.csdn.R$style: int CSDNTheme
+com.zack.csdn.R$style: int MyTextAppearance_TabPageIndicator_Day
+com.zack.csdn.R$style: int MyTextAppearance_TabPageIndicator_Night
+com.zack.csdn.R$style: int MyWidget_TabPageIndicator_Day
+com.zack.csdn.R$style: int MyWidget_TabPageIndicator_Night
+com.zack.csdn.R$style: int TextAppearance_TabPageIndicator
+com.zack.csdn.R$style: int Theme_Day
+com.zack.csdn.R$style: int Theme_Day_ActionBarTitleTextAppearance
+com.zack.csdn.R$style: int Theme_Day_ModeTextAppearance
+com.zack.csdn.R$style: int Theme_Day_actionBarRoot
+com.zack.csdn.R$style: int Theme_Day_infoContentActivityRootbackground
+com.zack.csdn.R$style: int Theme_Day_infoContentBoldTitleItem
+com.zack.csdn.R$style: int Theme_Day_infoContentItem
+com.zack.csdn.R$style: int Theme_Day_infoContentSummaryItem
+com.zack.csdn.R$style: int Theme_Day_infoContentTitleItem
+com.zack.csdn.R$style: int Theme_Day_infoItemCell
+com.zack.csdn.R$style: int Theme_Day_infoItemCellTitle
+com.zack.csdn.R$style: int Theme_Night
+com.zack.csdn.R$style: int Theme_Night_ActionBarTitleTextAppearance
+com.zack.csdn.R$style: int Theme_Night_ModeTextAppearance
+com.zack.csdn.R$style: int Theme_Night_actionBarRoot
+com.zack.csdn.R$style: int Theme_Night_infoContentActivityRootbackground
+com.zack.csdn.R$style: int Theme_Night_infoContentBoldTitleItem
+com.zack.csdn.R$style: int Theme_Night_infoContentItem
+com.zack.csdn.R$style: int Theme_Night_infoContentSummaryItem
+com.zack.csdn.R$style: int Theme_Night_infoContentTitleItem
+com.zack.csdn.R$style: int Theme_Night_infoItemCell
+com.zack.csdn.R$style: int Theme_Night_infoItemCellTitle
+com.zack.csdn.R$style: int Theme_Night_tabItemFragmentMain
+com.zack.csdn.R$style: int Theme_PageIndicatorDefaults
+com.zack.csdn.R$style: int Widget
+com.zack.csdn.R$style: int Widget_IconPageIndicator
+com.zack.csdn.R$style: int Widget_TabPageIndicator
+com.zack.csdn.R$styleable: int[] CirclePageIndicator
+com.zack.csdn.R$styleable: int CirclePageIndicator_android_background
+com.zack.csdn.R$styleable: int CirclePageIndicator_android_orientation
+com.zack.csdn.R$styleable: int CirclePageIndicator_centered
+com.zack.csdn.R$styleable: int CirclePageIndicator_fillColor
+com.zack.csdn.R$styleable: int CirclePageIndicator_pageColor
+com.zack.csdn.R$styleable: int CirclePageIndicator_radius
+com.zack.csdn.R$styleable: int CirclePageIndicator_snap
+com.zack.csdn.R$styleable: int CirclePageIndicator_strokeColor
+com.zack.csdn.R$styleable: int CirclePageIndicator_strokeWidth
+com.zack.csdn.R$styleable: int[] LinePageIndicator
+com.zack.csdn.R$styleable: int LinePageIndicator_android_background
+com.zack.csdn.R$styleable: int LinePageIndicator_centered
+com.zack.csdn.R$styleable: int LinePageIndicator_gapWidth
+com.zack.csdn.R$styleable: int LinePageIndicator_lineWidth
+com.zack.csdn.R$styleable: int LinePageIndicator_selectedColor
+com.zack.csdn.R$styleable: int LinePageIndicator_strokeWidth
+com.zack.csdn.R$styleable: int LinePageIndicator_unselectedColor
+com.zack.csdn.R$styleable: int[] TitlePageIndicator
+com.zack.csdn.R$styleable: int TitlePageIndicator_android_background
+com.zack.csdn.R$styleable: int TitlePageIndicator_android_textColor
+com.zack.csdn.R$styleable: int TitlePageIndicator_android_textSize
+com.zack.csdn.R$styleable: int TitlePageIndicator_clipPadding
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerColor
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerIndicatorHeight
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerIndicatorStyle
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerIndicatorUnderlinePadding
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerLineHeight
+com.zack.csdn.R$styleable: int TitlePageIndicator_footerPadding
+com.zack.csdn.R$styleable: int TitlePageIndicator_linePosition
+com.zack.csdn.R$styleable: int TitlePageIndicator_selectedBold
+com.zack.csdn.R$styleable: int TitlePageIndicator_selectedColor
+com.zack.csdn.R$styleable: int TitlePageIndicator_titlePadding
+com.zack.csdn.R$styleable: int TitlePageIndicator_topPadding
+com.zack.csdn.R$styleable: int[] UnderlinePageIndicator
+com.zack.csdn.R$styleable: int UnderlinePageIndicator_android_background
+com.zack.csdn.R$styleable: int UnderlinePageIndicator_fadeDelay
+com.zack.csdn.R$styleable: int UnderlinePageIndicator_fadeLength
+com.zack.csdn.R$styleable: int UnderlinePageIndicator_fades
+com.zack.csdn.R$styleable: int UnderlinePageIndicator_selectedColor
+com.zack.csdn.R$styleable: int[] ViewPagerIndicator
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiCirclePageIndicatorStyle
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiIconPageIndicatorStyle
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiLinePageIndicatorStyle
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiTabPageIndicatorStyle
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiTitlePageIndicatorStyle
+com.zack.csdn.R$styleable: int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
+com.zack.csdn.activity.ImageShowActivity
+com.zack.csdn.activity.ImageShowActivity: ImageShowActivity()
+com.zack.csdn.activity.InfoContentActivity
+com.zack.csdn.activity.InfoContentActivity: InfoContentActivity()
+com.zack.csdn.activity.MainActivity
+com.zack.csdn.activity.MainActivity: MainActivity()
+com.zack.framework.activity.BaseActivity: BaseActivity()
+com.zack.framework.activity.BaseFragmentActivity: BaseFragmentActivity()
+org.jsoup.Connection$Method: org.jsoup.Connection$Method[] values()
+org.jsoup.Connection$Method: org.jsoup.Connection$Method valueOf(java.lang.String)
+org.jsoup.nodes.Document$OutputSettings$Syntax: org.jsoup.nodes.Document$OutputSettings$Syntax[] values()
+org.jsoup.nodes.Document$OutputSettings$Syntax: org.jsoup.nodes.Document$OutputSettings$Syntax valueOf(java.lang.String)
+org.jsoup.nodes.Document$QuirksMode: org.jsoup.nodes.Document$QuirksMode[] values()
+org.jsoup.nodes.Document$QuirksMode: org.jsoup.nodes.Document$QuirksMode valueOf(java.lang.String)
+org.jsoup.nodes.Entities$EscapeMode: org.jsoup.nodes.Entities$EscapeMode[] values()
+org.jsoup.nodes.Entities$EscapeMode: org.jsoup.nodes.Entities$EscapeMode valueOf(java.lang.String)
+org.jsoup.parser.HtmlTreeBuilderState: org.jsoup.parser.HtmlTreeBuilderState[] values()
+org.jsoup.parser.HtmlTreeBuilderState: org.jsoup.parser.HtmlTreeBuilderState valueOf(java.lang.String)
+org.jsoup.parser.Token$TokenType: org.jsoup.parser.Token$TokenType[] values()
+org.jsoup.parser.Token$TokenType: org.jsoup.parser.Token$TokenType valueOf(java.lang.String)
+org.jsoup.parser.TokeniserState: org.jsoup.parser.TokeniserState[] values()
+org.jsoup.parser.TokeniserState: org.jsoup.parser.TokeniserState valueOf(java.lang.String)

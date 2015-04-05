@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSDN</string>
+    <string name="not_update">Not update</string>
+    <string name="title">CSDN</string>
+    <string name="night">Night</string>
+    <string name="day">Day</string>
+
+    <string-array name="tabTitles">
+        <item>NEWS</item>
+        <item>MOBILE</item>
+        <item>CLOUD</item>
+        <item>DEVELOPMENT</item>
+        <item>PROGRAMMER</item>
+    </string-array>
+
+    <!-- xlistview start -->
+    <string name="xlistview_header_hint_normal">Pull to refresh</string>
+    <string name="xlistview_header_hint_ready">Loosen to refresh data</string>
+    <string name="xlistview_header_hint_loading">Loading&#8230;&#8230;&#8230;</string>
+    <string name="xlistview_header_last_time">Update</string>
+    <string name="xlistview_footer_hint_normal">Glide up to see more</string>
+    <string name="xlistview_footer_hint_ready">Loosen to load more</string>
+    <!-- xlistview end -->
+    <string name="without_the_internet">Without the Internet</string>
+
+</resources>

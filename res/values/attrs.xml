@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mode" format="reference" />
+    <attr name="actionBarTitle" format="reference" />
+    <attr name="actionBarRoot" format="reference" />
+    <attr name="tabItemFragmentMain" format="reference" />
+    <attr name="infoItemCell" format="reference" />
+    <attr name="infoItemCellTitle" format="reference" />
+    <attr name="infoContentActivityRootbackground" format="reference" />
+    <attr name="infoContentTitleItem" format="reference" />
+    <attr name="infoContentSummaryItem" format="reference" />
+    <attr name="infoContentItem" format="reference" />
+    <attr name="infoContentBoldTitleItem" format="reference" />
+
+</resources>

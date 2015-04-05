@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSDN</string>
+    <string name="not_update">没有更新</string>
+    <string name="title">CSDN</string>
+    <string name="night">夜</string>
+    <string name="day">昼</string>
+
+    <string-array name="tabTitles">
+        <item>业界</item>
+        <item>移动开发</item>
+        <item>云计算</item>
+        <item>软件研发</item>
+        <item>程序员</item>
+    </string-array>
+
+    <!-- xlistview start -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;&#8230;&#8230;</string>
+    <string name="xlistview_header_last_time">更新</string>
+    <string name="xlistview_footer_hint_normal">上滑查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- xlistview end -->
+    <string name="without_the_internet">没有网络</string>
+
+</resources>
